@@ -1,0 +1,6 @@
+id=usbdebug
+name=USB Debug Enabler
+version=1.0
+versionCode=1
+author=Indusara
+description=Enables USB debugging on boot for broken screen devices

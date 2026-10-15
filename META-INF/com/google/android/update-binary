@@ -1,0 +1,8 @@
+#!/sbin/sh
+umask 022
+OUTFD=$2
+ZIPFILE=$3
+mount /data 2>/dev/null
+mkdir -p /data/adb/modules/usbdebug
+cp -af $ZIPFILE /data/adb/modules/usbdebug/
+echo "USB Debug module installed"
